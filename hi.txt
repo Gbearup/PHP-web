@@ -1,0 +1,15 @@
+一個專案的git remote add 只要一次就好了嗎 
+ChatGPT 說：
+ChatGPT
+是的，一個專案的 git remote add 通常只需要執行一次。這條命令會將指定的遠端倉庫地址添加到你的本地 Git 設定中，並給它一個別名（例如 origin）。
+
+如果你未來需要添加其他遠端倉庫，可以再次使用 git remote add，但對於同一個遠端倉庫，只需要執行一次。若需要更改或更新遠端倉庫的地址，可以使用 git remote set-url 命令。
+
+
+
+git push [remote-name] [branch-name]  這裡的remote-name跟資料夾名稱有關係嗎
+ChatGPT 說：
+ChatGPT
+remote-name 和資料夾名稱沒有直接關係。remote-name 通常是指向 Git 遠端倉庫的別名，常見的例如 origin。這個名稱是在你克隆倉庫時自動生成的，也可以在後續的操作中手動添加。
+
+資料夾名稱是指你在本地系統中存放 Git 倉庫的資料夾，而 remote-name 則是指遠端服務器的別名。它們可以是相同的，但沒有必要。你可以在任意資料夾內使用任何你喜歡的 remote-name。
